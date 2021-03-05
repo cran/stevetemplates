@@ -1,5 +1,6 @@
-09d040b26e51699c497de22852b788d2 *DESCRIPTION
+3a4923bd90db4d2773bae82b1bad062a *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
+b520d337bcd6179fdd88350b7b79a9db *R/anonms.R
 764407261cadb03226e284c2613dfe2c *R/article.R
 054a6719356d99fbda178c84058e182a *R/article2.R
 1e51194ef3df92a210f78881b39de1e1 *R/cv.R
@@ -7,10 +8,13 @@ ac07d43539564c699a522d50cd700485 *R/memo.R
 cee48ed350c62a40a63db39d85385716 *R/resume.R
 dd98d2b0fbac1aef300feaea099d6f78 *R/statement.R
 d10320ad1fe0026c26d2cd76ba7127c3 *README.md
-9df787bd1290691cd548be789304d7c2 *inst/rmarkdown/templates/article/resources/template.tex
+7c0bbaf519bd1af74a3ee1eebd9db569 *inst/rmarkdown/templates/anonms/resources/template.tex
+ffe24a8ebe9289c9fa80ae5d98cf1151 *inst/rmarkdown/templates/anonms/skeleton/skeleton.Rmd
+ce42d62b2cd182360a8a17b6e8ae6d5d *inst/rmarkdown/templates/anonms/template.yaml
+a1f0bb866263bfbc9d25e7f09090d915 *inst/rmarkdown/templates/article/resources/template.tex
 f8b43e9d98a178409bf5abb2fc7aac8f *inst/rmarkdown/templates/article/skeleton/skeleton.Rmd
 9cd1795a74ba049b21a4555db5fd9bc9 *inst/rmarkdown/templates/article/template.yaml
-5d94e4afd5d4af84e4116dd0aa9af415 *inst/rmarkdown/templates/article2/resources/template.tex
+97f97d6222f43a90ec63e6b3447dacac *inst/rmarkdown/templates/article2/resources/template.tex
 e7e8bbb3b23b4f8098a5eb2ff606e278 *inst/rmarkdown/templates/article2/skeleton/skeleton.Rmd
 3b2bd85c5ab23e8eb014a428985185a9 *inst/rmarkdown/templates/article2/template.yaml
 f40151a585df7a70beea43f290e13ba4 *inst/rmarkdown/templates/cv/resources/template.tex
@@ -26,6 +30,7 @@ bcebc8a39d2276b93af35b9d061d3a38 *inst/rmarkdown/templates/resume/template.yaml
 ae6af8dd5c491ba1e99e22f051cf605d *inst/rmarkdown/templates/statement/resources/template.tex
 890634f419a79fea1c2bc94971553992 *inst/rmarkdown/templates/statement/skeleton/skeleton.Rmd
 894c3927f84d4a8dd0aa45fedff6bf0a *inst/rmarkdown/templates/statement/template.yaml
+87550b2ae7e4540f3a5f27eb59f02a07 *man/anonms.Rd
 5064b8efeac0de3d5497baa3ef17d0ab *man/article.Rd
 027a9542c03e96a3ec48d4e1d72d9bf8 *man/article2.Rd
 2708c05763c2dce7ab1c66238ad6beef *man/cv.Rd
