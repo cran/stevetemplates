@@ -47,6 +47,10 @@ New File &gt; R Markdown*. Here, select any template you’d like to use.
 The version on CRAN should lag behind the development version, but the
 development version includes the following templates:
 
+-   **Steve’s Anonymous Manuscript Template**: This is an R Markdown
+    template I used exactly once for an anonymous manuscript submission
+    that needed to look an exact way. That submission was not published
+    at that journal. I have not had the occasion to submit there again.
 -   [**Steve’s First Article/Manuscript
     Template**](http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/):
     This is my first article/manuscript template and I made it
@@ -75,6 +79,11 @@ development version includes the following templates:
     templates. It’s a bit clunky, but it’s useful and markup-light for
     non-academic résumés. You can call it in the YAML with
     `stevetemplates::resume`.
+-   **Steve’s HTML Template**: I created this template on the fly for
+    formatting academic manuscripts to an HTML document. Capabilities
+    are limited the extent to which there’s more CSS I need to adjust.
+    This manuscript features prominently in my
+    [`{steveproj}`](https://github.com/svmiller/steveproj) package.
 -   [**Steve’s Memo
     Template**](http://svmiller.com/blog/2019/06/r-markdown-memo-template/):
     I created this for a memo I needed to write in 2019. You can call it
@@ -88,6 +97,13 @@ development version includes the following templates:
     when applying for jobs. I also use it for miscellaneous university
     busy work. You can call it in the YAML with
     `stevetemplates::statement`.
+-   **Steve’s Word Template**: I created this template many years ago
+    and never worked with it because Word is limited in its
+    functionality. I’ve since come back to this template because its
+    limitations make it wonderful for “anonymizing” a manuscript for
+    submission to journals that are picky about PDF submissions. This
+    manuscript features prominently in my
+    [`{steveproj}`](https://github.com/svmiller/steveproj) package.
 
 The user should notice that the YAML contains the functions (loaded in
 this package) to compile these documents. They are basic wrappers for
