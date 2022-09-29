@@ -8,12 +8,13 @@ output:
 title: An Example R Markdown Document
 subtitle: (A Subtitle Would Go Here if This Were a Class)
 author: Steven V. Miller
-institute: Department of Political Science
-# titlegraphic: "`r paste0(Sys.getenv('HOME'), '/Dropbox/clemson/watermarks/clemson-university-wordmark-orange-purple.png')`"
+institute: Department of Economic History and International Relations
+# titlegraphic: "`r paste0(Sys.getenv('HOME'), '/Dropbox/stockholm/su-logotyp.png')`"
 # scaletg: .9 # Optional, proportional (0, 1) to paper width. Defaults to .3
+# titlegraphshift: "\\vspace{6cm}" # Optional, you can delete this if you want.
 fontsize: 10pt
 make149: TRUE
-# mainfont: "Open Sans" # Try out some font options if xelatex
+# mainfont: "Open Sans Light" # Try out some font options if xelatex
 # titlefont: "Titillium Web" # Try out some font options if xelatex
 # specify color as six-digit RGB (no pound sign)
 # primarycolor: "990000" 
@@ -49,10 +50,19 @@ Sheena Easton describes the following scenario for her baby:
 
 ### A Total Conflict Game Between Sheena Easton and Her Baby
 
-|                         | Sheena Easton Stays Home       | Sheena Easton Goes to Baby's Work |
-|-------------------------|---------------------|------------------|
-| **Baby Home Again**          |  -100, **100**         |  **100**, 0       |
-| **Baby Stays at Work**             |   **50**, 0        |  -100, **100**        |
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcc}
+\hline
+ & Sheena Easton & Sheena Easton \\
+ &  Stays Home & Goes to Baby's Work\\
+\hline
+{\bf Baby Home Again} & -100, {\bf 100} & {\bf 100}, 0 \\
+{\bf Baby Stays at Work} & {\bf 50}, 0 & -100, {\bf 100} \\
+\hline
+\end{tabular}
+\end{table}
 
 Sheena Easton and her baby are playing a **zero-sum (total conflict) game**.
 

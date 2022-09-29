@@ -1,5 +1,18 @@
-stevetemplates 0.7.0
----------------------------------------------------------------------
+# stevetemplates 0.8.0 (in development)
+
+
+- Bug fix for center footer in the non-academic résumé template. HT @mwpeterson for finding this.
+- Bug fix for color in the CV template. HT @dojobo for finding this.
+- Disabled `titlesec` in `cv`. This is admittedly an ad hoc adjustment based on a new computer I have.
+- Default Beamer colors changed from Clemson University colors to Stockholm University colors.
+- Default `titlegraphic` scaling in `beamer` is now .3, because of new gig.
+- `beamer` now hard codes white backgrounds for bouncing between normal theme and a "metropolis" option, which I may start using more.
+- Related to the above: the color for title separator (if you combo this with the Metropolis theme) defaults to a Stockholm University color ("sky") or whatever you supply as a secondary color option.
+- `beamer` now has a `titlegraphshift:` field, completely optional, for moving around whatever is supplied in `titlegraphic`. Use with care, and manually escape any LaTeX code you want here.
+- Until someone tells me why I shouldn't do this, the `beamer` now template will load, by default, the following LaTeX packages: `dcolumn`, `longtable`, `booktabs`, `array`, `multirow`, `wrapfig`, `float`, `colortbl`, `pdflscape`, `tabu`, and `threeparttable`. These are all add-ons for doing stuff with `{kableExtra}` and `{modelsummary}`
+
+# stevetemplates 0.7.0
+
 
 - ORCID links in the CV.
 - Adjust behavior for `updated` field in the CV template. If `TRUE`, the last update appears in the third row of the header. If `FALSE`, it appears in the center footer.
@@ -7,10 +20,10 @@ stevetemplates 0.7.0
 - Integrate `appendixletter` with LaTeX package `endfloat` in the second article template. This is useful if you want specialty table/figure numbering *and* you want an anonymous document.
 - Adjust Word skeleton to be more minimal and actually render.
 - Some added CSS for better tables in the HTML template.
-- The `article2` template now supports captions for code chunks, courtesy of [this Stack Overflow post](https://stackoverflow.com/questions/50702942/does-rmarkdown-allow-captions-and-references-for-code-chunks). This appears in the YAML as `chunkcaption: TRUE` if you want to enable it. If you enable it, change the `knitr` code to what you see (commented) in the setup chunk. Consult the Stack Overflow thread for more informaiton.
+- The `article2` template now supports captions for code chunks, courtesy of [this Stack Overflow post](https://stackoverflow.com/questions/50702942/does-rmarkdown-allow-captions-and-references-for-code-chunks). This appears in the YAML as `chunkcaption: TRUE` if you want to enable it. If you enable it, change the `knitr` code to what you see (commented) in the setup chunk. Consult the Stack Overflow thread for more information.
 
-stevetemplates 0.6.0
----------------------------------------------------------------------
+# stevetemplates 0.6.0
+
 
 The newest release has the following additions and changes to pre-existing templates. Additions include:
 
@@ -23,8 +36,8 @@ Changes include:
 - A user-specified date format in YAML for the CV template.
 
 
-stevetemplates 0.5.0
----------------------------------------------------------------------
+# stevetemplates 0.5.0
+
 
 The newest release has the following additions and changes to pre-existing templates. Additions include:
 
@@ -39,8 +52,8 @@ Changes include:
 - Force tables/figs to back of document in `article2` when `anonymous: TRUE`. This comes by way of the `endfloat` package in LaTeX.
 
 
-stevetemplates 0.4.0
----------------------------------------------------------------------
+# stevetemplates 0.4.0
+
 
 The newest release has the following additions and changes to pre-existing templates. Additions include:
 
@@ -50,8 +63,8 @@ Changes include:
 
 - `article`, `article2`, and `anonms` feature the "CSL" environment change that Pandoc recently rolled out. I think this came at the end of 2020. It is only relevant if you *don't* use natbib for handling references.
 
-stevetemplates 0.3.0
----------------------------------------------------------------------
+# stevetemplates 0.3.0
+
 
 The newest release has the following additions and changes to pre-existing templates. Additions include:
 
@@ -63,8 +76,8 @@ Changes include:
 - Companion functions for isolating the system path of the template. These functions have a prefix of `templ_` and can be useful for a "make" approach to document preparation.
 
 
-stevetemplates 0.2.0
----------------------------------------------------------------------
+# stevetemplates 0.2.0
+
 
 - Rename functions from, for example, `svm_article2` to `article2`.
 - Add article template, CV template, non-ac résumé template, and memo template.
@@ -74,7 +87,7 @@ stevetemplates 0.2.0
 - Get rid of `tidyverse` import/dependency, since it just bogs down testing and is not required.
 - Add "does file exist" tests, importantly for CRAN.
 
-stevetemplates 0.1.0
----------------------------------------------------------------------
+# stevetemplates 0.1.0
+
 
 - Initial developmental release, with article2 template.
