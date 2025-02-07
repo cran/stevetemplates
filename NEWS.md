@@ -1,3 +1,12 @@
+# stevetemplates 1.1.0
+
+- `word` now has a custom footnote style, which simply decreases the font size from 12 to 9.
+- `article3` no longer has a hypothesis theorem hard-coded to it. `{bookdown}` can do that, if you need it. Rationale: you also won't need it for the simplest of simple cases, or could add one yourself by way of `header-includes:`.
+- `cv2` is an updated version of `cv`, which I use now for my academic CV.
+- `syllabus` now has the ability to add third and fourth co-teachers.
+- `beamer` has some hacks (sic) for two-column layouts.
+- `syllabus2` is another syllabus template for me now that I moved to Stockholm University and have a wildly different format to classes.
+
 # stevetemplates 1.0.0
 
 - `ekohist_thesis` is a limited-use R Markdown template for use in masters thesis in the Department of Economic History and International Relations at Stockholm University.
